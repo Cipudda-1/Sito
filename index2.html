@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        table, th, td{
+        border: 1px;
+    }
+    </style>
+<title>Progetto1</title>
+
+<body style=background-color:#ffe4e1>
+    <h1 style="text-align:center; font-family:courier; font-size: 500%;">Crittografia</h1>
+    <table>
+        <tr>
+        <td style="text-align:center;">
+            <img style="align-items: center;" src="Immagine7.jpg" width="430" height="242">
+        </td>
+        <td style="text-align:center;">
+            <img style="align-items: center;" src="Immagine5.jpg" width="430" height="242">
+        </td>
+        <td style="text-align:center;">
+            <img style="align-items: center;" src="Immagine6.jpg" width="430" height="242">
+        </td>
+        </tr>
+        <tr>
+    	    <td style="text-align:center; font-size: xx-large;">
+                I cifrari a blocchi attualmente in uso e più famosi sono 3DES, IDEA A e AES.
+            </td>
+            <td style="text-align:center; font-size: xx-large;">
+                Lo scambio di chiavi di Diffie-Hellman.
+            </td>
+            <td style="text-align:center; font-size: xx-large;">
+                Anche la crittografia moderna include degli algoritmi simmetrici, chiamati cifrari a blocchi.
+            </td>
+        </tr>
+        <tr>
+    	    <td style="text-align:center; font-size: large;">
+                3DES:
+                <br> 
+                Suddiviso il messaggio è di 64 bit come ogni blocco DES, ma la chiave è lunga il triplo, cioè 192 bit.
+                </br>
+                AES (Advanced Encryp- tion Standard):
+                <br>
+                La dimensione del blocco del messaggio è di 128 bit e su ciascuno di essi 
+                vengono applicate funzioni che lavorano con 128, 192 o 256 bit. 
+                Inoltre ciascuna funzione viene iterata 10, 12 e da 14 volte in base alla lunghezza della chiave.
+                </br>
+                IDEA (International Data Encryption Algorithm): 
+                <br>
+                È utilizzato in software di sicurezza per la posta elettronica.     
+                Questo algoritmo lavora iterativamente con blocchi da 64 bit e una chiave da 128 bit.
+                </br>
+            </td>
+            <td style="text-align:center; font-size: large;">
+                La soluzione al problema dello scambio delle chiavi, una sfida nella crittografia,
+                <br>
+                è stata fornita dai crittografi statunitensi Whitfield Diffie e Martin Hellman
+                </br>
+                con lo sviluppo del protocollo crittografico Diffie-Hellman.
+                <br>
+                Questo protocollo, pubblicato nel 1976, permette a due parti di stabilire una
+                </br>
+                chiave segreta condivisa tramite un canale di comunicazione pubblico, 
+                <br>
+                senza la necessità di scambiare chiavi private in anticipo.
+                </br>
+                Se p è un numero primo, un generatore di p è un numero minore di p che 
+                <br>
+                elevato alle sue potenze naturali e calcolato in modulo p, 
+                </br>
+                genera tutti i numeri compresi tra 1 e p - 1.
+            </td>
+            <td style="text-align:center; font-size: large;">
+                Il cifrario a blocchi accetta in input un blocco di n bit e restituisce 
+                <br>
+                in output altri n bit secondo una corrispondenza concordata tra mittente e destinatario. 
+                </br>
+                La corrispondenza tra blocchi di bit in input e blocchi di bit in output è la chiave del cifrario. 
+                <br>
+                La tabella delle corrispondenze è la chiave privata condivisa da mittente e destinatario
+                </br>
+                Per molti anni l'algoritmo di cifratura a blocchi più utilizzato è stato il DES, 
+                <br>
+                sviluppato nel 1976 per il governo degli Stati Uniti. 
+                </br>
+                Per utilizzare questo algoritmo si deve suddividere il messaggio in chiaro in blocchi da 64 bit 
+                <br>
+                e applicare delle funzioni che utilizzano una chiave di 56 bit, iterando il processo per 16 volte.
+                </br>
+            </td>
+        </tr>
+        <tr></tr>
+        <tr>
+        <td></td>
+        <td style="text-align:center; font-size: xx-large;">
+            Cifrario di Cesare.
+        </td>
+        <td></td>
+        </tr>
+        <tr>
+        <td></td>
+        <td style="text-align:center; font-size: xx-large;">
+            <img style="align-items: center;" src="Immagine8.jpg" width="430" height="242">
+        </td>
+        <td></td>
+        </tr>
+        <tr>
+        <td></td>
+        <td style="text-align:center; font-size: large;"> 
+            I cifrari di Cesare e di trasposizione sono esempi di cifrari simmetrici, 
+            <br>
+            ovvero usano la stessa chiave per cifrare e decifrare, 
+            </br>
+            ma garantiscono solo due aspetti della sicurezza: 
+            <br>
+            la segretezza del messaggio (Alice lo trasforma e Bob lo recupera con la chiave) 
+            </br>
+            e l'autenticazione (se la chiave è stata scambiata di persona). 
+            <br>
+            Manca però la garanzia sull'integrità del messaggio, 
+            </br>
+            ciò significa che non si può sapere se è stato modificato da un attaccante.
+
+        </td>
+        <td></td>
+        </tr>
+    </table>
+    <p style="text-align: center;">Per maggiori informazioni vedi <a href="index1.html"> Sicurezza </a> e <a href="index3.html"> Tipologie di Virus</a></p>
+    <p style="text-align: center;"><a href="index.html"> Pagina Iniziale </a></p>
+</body>
+</html>
